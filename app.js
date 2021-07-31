@@ -18,11 +18,11 @@ function digitalClock() {
         timeFormat = 'PM';
     };
 
-    hour = hour < 12? '0' + hour : hour;
-    minutes = minutes < 12? '0' + minutes : minutes;
-    second = second < 12? '0' + second : second;   
-    date = date < 12? '0' + date : date;
-    month = month < 12? '0' + month : month;
+    hour = hour < 10? '0' + hour : hour;
+    minutes = minutes < 10? '0' + minutes : minutes;
+    second = second < 10? '0' + second : second;   
+    date = date < 10? '0' + date : date;
+    month = month < 10? '0' + month : month;
  
 
 
