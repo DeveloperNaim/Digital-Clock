@@ -91,7 +91,16 @@ aside {
 h1#time {
   display: inline-block;
   font-size: 36px;
+  
 }
 small#date{
   font-size: 10px;
+}
+
+h1#title {
+  color: rgb(224, 255, 206);
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 50px;
 }
